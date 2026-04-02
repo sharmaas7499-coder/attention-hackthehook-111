@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+google-genai
+httpx
+python-multipart
+pydantic
+motor
+pymongo
+dnspython
+transformers
+torch
+accelerate
+sentencepiece
+scikit-learn
+joblib
+numpy
