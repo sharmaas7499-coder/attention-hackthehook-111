@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://probablyanurag-attention-brain-api.hf.space:match*"
+    }
+  ]
+}
