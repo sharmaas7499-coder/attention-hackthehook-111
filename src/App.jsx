@@ -10,7 +10,7 @@ import './App.css';
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement,
   BarElement, ArcElement, RadialLinearScale, Filler, Tooltip, Legend);
 
-const API = '/api';
+const API = process.env.REACT_APP_API_URL || 'https://probablyanurag-attention-brain-api.hf.space';
 
 // ── API helper ────────────────────────────────────────────────────────────────
 const api = {
